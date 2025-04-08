@@ -1,0 +1,13 @@
+cd build
+cmake -G "MinGW Makefiles" ..
+cmake --build .
+
+
+
+Basic Build Command :
+----------------------
+g++ -o build/miniverse.exe src/main.cpp
+
+Run Exe in Terminal:
+-------------------
+build\miniverse.exe
