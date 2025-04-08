@@ -1,10 +1,5 @@
-cmake_minimum_required(VERSION 3.10)
-project(Miniverse VERSION 1.0.0)
+cmake_minimum_required(VERSION 3.15)
+project(Miniverse)
 
-# Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-
-
-# Add executable
 add_executable(miniverse src/main.cpp)
